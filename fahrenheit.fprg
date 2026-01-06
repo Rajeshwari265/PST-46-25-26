@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="circumference"/>
+        <attribute name="authors" value="rajiq"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 02:38:53 PM"/>
+        <attribute name="created" value="cmFqaXE7UkFKSU5BTkRIVTsyMDI2LTAxLTA2OzAyOjIyOjI5IFBNOzI1NTM="/>
+        <attribute name="edited" value="cmFqaXE7UkFKSU5BTkRIVTsyMDI2LTAxLTA2OzAyOjM4OjUzIFBNOzI7MjY2Ng=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="celsius" type="Real" array="False" size=""/>
+            <declare name="fehrenheit" type="Real" array="False" size=""/>
+            <input variable="celsius"/>
+            <assign variable="fahrenheit" expression="(celsius*9/5)+32"/>
+            <output expression="&quot;fahrenheit&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

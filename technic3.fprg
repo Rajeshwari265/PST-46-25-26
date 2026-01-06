@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="technic2"/>
+        <attribute name="authors" value="rajiq"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:17:28 AM"/>
+        <attribute name="created" value="cmFqaXE7UkFKSU5BTkRIVTsyMDI2LTAxLTA2OzEwOjAwOjIzIEFNOzI1Mjc="/>
+        <attribute name="edited" value="cmFqaXE7UkFKSU5BTkRIVTsyMDI2LTAxLTA2OzEwOjE3OjI4IEFNOzY7MjY1Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <declare name="B" type="Integer" array="False" size=""/>
+            <assign variable="A" expression="20"/>
+            <assign variable="B" expression="10"/>
+            <if expression="A&lt;B">
+                <then/>
+                <else/>
+            </if>
+            <output expression="A&lt;B" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
